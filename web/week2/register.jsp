@@ -15,11 +15,11 @@
     New User Registration<br/><br/>
     Username<input type="text" name="name" required="true"><br/><br/>
     Password<input type="password" name="pwd" required="true" minlength="8"><br/><br/>
-    email<input type="email" name="email" required="true"><br/><br/>
+    email<input type="text" name="email" required="true"><br/><br/>
     Gender
-    Male<input type="radio">
-    Female<input type="radio"><br/><br/>
-    Date of birth(yyyy-mm-dd)<input type="date" pattern="yyyy-mm-dd" required="true"><br/><br/>
+    Male<input type="radio" name="sex">
+    Female<input type="radio" name="sex"><br/><br/>
+    Date of birth(yyyy-mm-dd)<input type="text"  required="true"><br/><br/>
 
     <input type="submit" value="Register">
 </form>
