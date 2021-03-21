@@ -7,9 +7,29 @@
         <servlet-name>anyname</servlet-name>
         <servlet-class>main.java.com.MiJiang.week2.hello</servlet-class>
     </servlet>
+
+    <servlet>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <servlet-class>main.java.com.MiJiang.week3.LifeCycleServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>main.java.com.MiJiang.week3.RegisterServlet</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>anyname</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
 
+    <servlet-mapping>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <url-pattern>/Life</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
 </web-app>
