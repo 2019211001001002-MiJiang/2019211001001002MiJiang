@@ -1,5 +1,6 @@
 package main.java.com.MiJiang.week3;
 
+//import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -7,26 +8,98 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.*;
 
+@WebServlet(urlPatterns = "/register")
 
 public class RegisterServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String name=request.getParameter("name");
-        String pwd=request.getParameter("pwd");
-        String email=request.getParameter("email");
-        String sex=request.getParameter("sex");
-        String birth=request.getParameter("birth");
-        PrintWriter writer=response.getWriter();
-        writer.println("name:"+name);
-        writer.println("pwd:"+pwd);
-        writer.println("email:"+email);
-        writer.println("sex:"+sex);
-        writer.println("birth:"+birth);
-        writer.close();
+    Connection con = null;
+
+    public void init() throws ServletException {
+
+        String driver = getServletContext().getInitParameter("driver");
+        String url = getServletContext().getInitParameter("url");
+        String username = getServletContext().getInitParameter("username");
+        String password = getServletContext().getInitParameter("password");
+
+        try {
+            Class.forName(driver);
+            con = DriverManager.getConnection(url, username, password);
+            System.out.println("init()-->" + con);
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+
+        }
 
     }
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//        String name=request.getParameter("name");
+//        String pwd=request.getParameter("pwd");
+//        String email=request.getParameter("email");
+//        String sex=request.getParameter("sex");
+//        String birth=request.getParameter("birth");
+//        PrintWriter writer=response.getWriter();
+//        writer.println("name:"+name);
+//        writer.println("pwd:"+pwd);
+//        writer.println("email:"+email);
+//        writer.println("sex:"+sex);
+//        writer.println("birth:"+birth);
+//        writer.close();
+
+
+        String sql = "Insert into usertable(id,username,password,email,gender,birthdate) values(?,?,?,?,?,?)";
+            try {
+            PreparedStatement p = con.prepareStatement(sql);
+            p.setInt(1, 1002);
+            p.setString(2, "MiJiang");
+            p.setString(3, "123456wsl");
+            p.setString(4, "3072578962@qq.com");
+            p.setString(5, "female");
+            p.setString(6, "2001-1-1");
+            p.executeUpdate();
+            p.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        response.setContentType("text/html charset=utf-8");
+        PrintWriter out=response.getWriter();
+        String sql1 = "select * from usertable ";
+        try {
+            ResultSet re = con.createStatement().executeQuery(sql1);
+            out.println("<table border='1' align='center'>");
+            out.println("<tr>");
+            out.println("<td>"+"id"+"</td>");
+            out.println("<td>"+"username"+"</td>");
+            out.println("<td>"+"password"+"</td>");
+            out.println("<td>"+"email"+"</td>");
+            out.println("<td>"+"gender"+"</td>");
+            out.println("<td>"+"birthdate"+"</td>");
+            out.println("</tr>");
+            while (re.next()) {
+
+                out.println("<tr>");
+                out.println("<td>"+re.getInt("id")+"</td>");
+                out.println("<td>"+re.getString("username")+"</td>");
+                out.println("<td>"+re.getString("password")+"</td>");
+                out.println("<td>"+re.getString("email")+"</td>");
+                out.println("<td>"+re.getString("gender")+"</td>");
+                out.println("<td>"+re.getString("birthdate")+"</td>");
+                out.println("</tr>");
+            }
+            out.println("</table>");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+    }
+
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        doPost(request,response);
     }
+
 }

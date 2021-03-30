@@ -13,10 +13,41 @@
         <servlet-class>main.java.com.MiJiang.week3.LifeCycleServlet</servlet-class>
     </servlet>
 
-    <servlet>
-        <servlet-name>RegisterServlet</servlet-name>
-        <servlet-class>main.java.com.MiJiang.week3.RegisterServlet</servlet-class>
-    </servlet>
+<!--   <servlet>-->
+<!--        <servlet-name>RegisterServlet</servlet-name>-->
+<!--        <servlet-class>main.java.com.MiJiang.week3.RegisterServlet</servlet-class>-->
+<!--        -->
+<!--   </servlet>-->
+
+<!--   <servlet>-->
+<!--        <servlet-name>ConfigDemoServlet</servlet-name>-->
+<!--        <servlet-class>main.java.com.MiJiang.week4.ConfigDemoServlet</servlet-class>-->
+<!--        <init-param>-->
+<!--            <param-name>name</param-name>-->
+<!--            <param-value>MiJiang</param-value>-->
+<!--        </init-param>-->
+<!--       <init-param>-->
+<!--           <param-name>StudentID</param-name>-->
+<!--           <param-value>2019211001001002</param-value>-->
+<!--       </init-param>-->
+
+<!--    </servlet>-->
+    <context-param>
+        <param-name>driver</param-name>
+        <param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+    </context-param>
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:sqlserver://127.0.0.1:1433; DatabaseName=userMJ</param-value>
+    </context-param>
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>sa</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>123456wsl</param-value>
+    </context-param>
 
     <servlet-mapping>
         <servlet-name>anyname</servlet-name>
@@ -28,8 +59,13 @@
         <url-pattern>/Life</url-pattern>
     </servlet-mapping>
 
-    <servlet-mapping>
-        <servlet-name>RegisterServlet</servlet-name>
-        <url-pattern>/register</url-pattern>
-    </servlet-mapping>
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>RegisterServlet</servlet-name>-->
+<!--        <url-pattern>/register</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>ConfigDemoServlet</servlet-name>-->
+<!--        <url-pattern>/config</url-pattern>-->
+<!--    </servlet-mapping>-->
 </web-app>
