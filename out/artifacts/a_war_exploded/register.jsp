@@ -11,18 +11,24 @@
     <title>Title</title>
 </head>
 <body>
+<%@include file="header.jsp"%>
+
 <form method="post" action="register">
     New User Registration<br/><br/>
-    Username<input type="text" name="name" required="true"><br/><br/>
-    Password<input type="password" name="pwd" required="true" minlength="8"><br/><br/>
+    id<input type="text" name="id" required="true"><br/><br/>
+    username<input type="text" name="name" required="true"><br/><br/>
+    password<input type="password" name="pwd" required="true" minlength="8"><br/><br/>
     email<input type="text" name="email" required="true"><br/><br/>
-    Gender
+    gender
     Male<input type="radio" name="sex" value="male">
     Female<input type="radio" name="sex" value="female"><br/><br/>
     Date of birth(yyyy-mm-dd)<input type="text"  required="true" name="birth"><br/><br/>
 
     <input type="submit" value="Register">
+
+
 </form>
+<%@include file="footer.jsp"%>
 </body>
 </html>
 

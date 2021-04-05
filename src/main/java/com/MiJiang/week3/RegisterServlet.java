@@ -37,29 +37,24 @@ public class RegisterServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//        String id=request.getParameter("id");
 //        String name=request.getParameter("name");
 //        String pwd=request.getParameter("pwd");
 //        String email=request.getParameter("email");
 //        String sex=request.getParameter("sex");
 //        String birth=request.getParameter("birth");
-//        PrintWriter writer=response.getWriter();
-//        writer.println("name:"+name);
-//        writer.println("pwd:"+pwd);
-//        writer.println("email:"+email);
-//        writer.println("sex:"+sex);
-//        writer.println("birth:"+birth);
-//        writer.close();
+
 
 
         String sql = "Insert into usertable(id,username,password,email,gender,birthdate) values(?,?,?,?,?,?)";
             try {
             PreparedStatement p = con.prepareStatement(sql);
-            p.setInt(1, 1002);
-            p.setString(2, "MiJiang");
-            p.setString(3, "123456wsl");
-            p.setString(4, "3072578962@qq.com");
-            p.setString(5, "female");
-            p.setString(6, "2001-1-1");
+            p.setString(1,"");
+            p.setString(2,"");
+            p.setString(3,"");
+            p.setString(4,"");
+            p.setString(5,"");
+            p.setString(6,"");
             p.executeUpdate();
             p.close();
         } catch (SQLException e) {
