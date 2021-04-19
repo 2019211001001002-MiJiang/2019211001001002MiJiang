@@ -88,7 +88,7 @@ public class UserDao implements IUserDao {
 
     @Override
     public List<User> findByBirthdate(Connection con, Date birthDate) throws SQLException {
-        String sql = "select * from utable where birthdate = ";
+        String sql = "select * from utable where birthdate =? ";
         return  qr.query(con,sql,new BeanListHandler<>(User.class));
     }
 
