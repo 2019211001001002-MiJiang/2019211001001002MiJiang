@@ -1,5 +1,8 @@
 package main.java.com.MiJiang.week5;
 
+import main.java.com.MiJiang.dao.UserDao;
+import main.java.com.MiJiang.model.User;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -37,7 +40,19 @@ con=(Connection)getServletContext().getAttribute("con");
         String UserName = request.getParameter("name");
         String PassWord = request.getParameter("password");
        // PrintWriter out=response.getWriter();
-
+        UserDao userDao=new UserDao();
+        try {
+            User user=userDao.findByUsernamePassword(con,UserName,PassWord);
+            if(user!=null){
+                request.setAttribute("user",user);
+                request.getRequestDispatcher("WEB-INF/views/userInfo.jsp").forward(request,response);
+            }else {
+                request.setAttribute("message","username or password error");
+                request.getRequestDispatcher("WEB-INF/views/Login.jsp").forward(request,response);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
         try {
             String sql1 = "select * from utable WHERE username='"+UserName+"' AND password='"+PassWord+"';";
             ResultSet rs =con.createStatement().executeQuery(sql1);
@@ -62,6 +77,6 @@ con=(Connection)getServletContext().getAttribute("con");
 
     }
         protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doPost(request,response);
+        request.getRequestDispatcher("WEB-INF/views/Login.jsp").forward(request,response);
     }
 }
