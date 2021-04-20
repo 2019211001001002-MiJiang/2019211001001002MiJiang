@@ -47,6 +47,8 @@ public class UserDao implements IUserDao {
     public User findByUsernamePassword(Connection con, String username, String password) throws SQLException {
         String sql="select * from utable WHERE username=? AND password=?";
         PreparedStatement st=con.prepareStatement(sql);
+        st.setString(1,username);
+        st.setString(2,password);
         ResultSet rs=st.executeQuery();
         User user=null;
         if(rs.next()){
