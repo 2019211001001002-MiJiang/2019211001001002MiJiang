@@ -20,6 +20,7 @@
     <tr><td>Gender:</td><td><%=request.getAttribute("gender")%></td></tr>
     <tr><td>Birth Date:</td><td><%=request.getAttribute("birthdate")%></td></tr>
 </table>
+
 </body>
 <%@include file="footer.jsp"%>
 </html>

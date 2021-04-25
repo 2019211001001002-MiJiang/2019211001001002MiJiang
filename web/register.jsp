@@ -15,9 +15,9 @@
 
 <form method="post" action="register">
     New User Registration<br/><br/>
-    id<input type="text" name="id" required="true"><br/><br/>
+<%--    id<input type="text" name="id" required="true"><br/><br/>--%>
     username<input type="text" name="name" required="true"><br/><br/>
-    password<input type="password" name="pwd" required="true" minlength="8"><br/><br/>
+    password<input type="password" name="pwd" required="true"><br/><br/>
     email<input type="text" name="email" required="true"><br/><br/>
     gender
     Male<input type="radio" name="sex" value="male">
@@ -26,8 +26,7 @@
 
     <input type="submit" value="Register">
 
-
-</form>
+    <form/>
 <%@include file="footer.jsp"%>
 </body>
 </html>

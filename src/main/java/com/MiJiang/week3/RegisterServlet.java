@@ -7,7 +7,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.*;
 
 @WebServlet(urlPatterns = "/register")
@@ -37,7 +36,7 @@ public class RegisterServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String id=request.getParameter("id");
+       // int id=Integer.parseInt(request.getParameter("id"));
         String name=request.getParameter("name");
         String pwd=request.getParameter("pwd");
         String email=request.getParameter("email");
@@ -48,12 +47,19 @@ public class RegisterServlet extends HttpServlet {
 
         try {
             response.setContentType("text/html charset=utf-8");
-            Statement createDbStatement = con.createStatement();
-            String sql ="insert into utable(id,username,password,email,gender,birthdate) values('"+id+"', '"+name+"','"+ pwd+"','"+email+"','"+sex+"','"+birth+"')";
-            createDbStatement.executeUpdate(sql);
+
+            String sql ="insert into utable3(username,password,email,gender,birthdate) values(?,?,?,?,?)";
+            PreparedStatement pstmt=con.prepareStatement(sql);
+            //pstmt.setInt(1, id);
+            pstmt.setString(1, name);
+            pstmt.setString(2, pwd);
+            pstmt.setString(3, email);
+            pstmt.setString(4, sex);
+            pstmt.setString(5, birth);
+            pstmt.executeUpdate();
 
            // PrintWriter out=response.getWriter();
-//            String sql1 = "select * from utable ";
+//            String sql1 = "select * from utable3 ";
 //            ResultSet re = createDbStatement.executeQuery(sql1);
 //            out.println("<table border='1' align='center'>");
 //            out.println("<tr>");
@@ -85,6 +91,6 @@ public class RegisterServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doPost(request,response);
-    }
+        }
 
-}
+        }
