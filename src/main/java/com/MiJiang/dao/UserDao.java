@@ -96,7 +96,10 @@ public class UserDao implements IUserDao {
 
     @Override
     public List<User> findByBirthdate(Connection con, Date birthDate) throws SQLException {
+
        return null;
+
+
     }
 
     @Override
