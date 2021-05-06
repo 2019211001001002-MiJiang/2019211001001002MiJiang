@@ -44,8 +44,22 @@ public class UserDao implements IUserDao {
     @Override
     public User findById(Connection con, int id) throws SQLException {
 
+        String sql="select * from utable3 WHERE id=?";
+        PreparedStatement st=con.prepareStatement(sql);
+        st.setInt(1,id);
+        ResultSet rs=st.executeQuery();
+        User user=null;
+        if(rs.next()){
+            user=new User();
+            user.setId(rs.getInt("id"));
+            user.setUsername(rs.getString("username"));
+            user.setPassword(rs.getString("password"));
+            user.setEmail(rs.getString("email"));
+            user.setGender(rs.getString("gender"));
+            user.setBirthdate(rs.getDate("birthdate"));
+        }
 
-        return null;
+        return user;
     }
 
 

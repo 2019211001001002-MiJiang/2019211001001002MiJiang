@@ -15,8 +15,15 @@
 </head>
 <body>
 <h1>User Info</h1>
-<%
-    User u=(User)session.getAttribute("user");
+<%User u=null;
+    if(session.getAttribute("userInfo")!=null) {
+    u = (User) session.getAttribute("userInfo");
+
+    }
+    if(session.getAttribute("userInfo")==null&&session.getAttribute("user")!=null) {
+        u = (User) session.getAttribute("user");
+
+    }
 %>
 <table>
     <tr><td>Username:</td><td><%=u.getUsername()%></td></tr>
@@ -25,7 +32,7 @@
     <tr><td>Gender:</td><td><%=u.getGender()%></td></tr>
     <tr><td>Birth Date:</td><td><%=u.getBirthdate()%></td></tr>
 </table>
-<a href="updateUser?id=<%=u.getId()%>>">update</a>
+<a href="updateUser?id=<%=u.getId()%>">update</a>
 
 </body>
 <%@include file="footer.jsp"%>

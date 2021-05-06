@@ -1,48 +1,68 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: LENOVO
-  Date: 2021/3/13
-  Time: 13:57
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  <%@include file="header.jsp"%>
-<%--  <h1><%="Welcome to my home page." %></h1><br/>--%>
 
+<%@include file="header.jsp"%>
+	<section id="slider"><!--slider-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="slider-carousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#slider-carousel" data-slide-to="1"></li>
+							<li data-target="#slider-carousel" data-slide-to="2"></li>
+						</ol>
+						
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="col-sm-6">
+									<h1><span>E</span>-SHOPPER</h1>
+									<h2>My E-Commerce Website</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+									<button type="button" class="btn btn-default get">Get it now</button>
+								</div>
+								<div class="col-sm-6">
+									<img src="<%=basePath%>images/home/girl1.jpg" class="girl img-responsive" alt="" />
+									<img src="<%=basePath%>images/home/pricing.png"  class="pricing" alt="" />
+								</div>
+							</div>
+							<div class="item">
+								<div class="col-sm-6">
+									<h1><span>E</span>-SHOPPER</h1>
+									<h2>100% Responsive Design</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+									<button type="button" class="btn btn-default get">Get it now</button>
+								</div>
+								<div class="col-sm-6">
+									<img src="<%=basePath%>images/home/girl2.jpg" class="girl img-responsive" alt="" />
+									<img src="<%=basePath%>images/home/pricing.png"  class="pricing" alt="" />
+								</div>
+							</div>
+							
+							<div class="item">
+								<div class="col-sm-6">
+									<h1><span>E</span>-SHOPPER</h1>
+									<h2>My Ecommerce Website</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+									<button type="button" class="btn btn-default get">Get it now</button>
+								</div>
+								<div class="col-sm-6">
+									<img src="<%=basePath%>images/home/girl3.jpg" class="girl img-responsive" alt="" />
+									<img src="<%=basePath%>images/home/pricing.png" class="pricing" alt="" />
+								</div>
+							</div>
+							
+						</div>
+						
+						<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+							<i class="fa fa-angle-left"></i>
+						</a>
+						<a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+							<i class="fa fa-angle-right"></i>
+						</a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section><!--/slider-->
+<%@include file="footer.jsp"%>
 
-<%--  <br/>--%>
-<%--  <a href="hello-servlet">hello servelt-week1</a>--%>
-<%--  <br/>--%>
-<%--  <a href="hello">Student info Servelt-week2</a>--%>
-<%--  <br/>--%>
-<%--  <a href="Life">Life Cycle Servelt-week3</a>--%>
-<%--  <br/>--%>
-<%--  <a href="register.jsp">Register-getParameter-week3</a>--%>
-<%--  <br/>--%>
-<%--  <a href="config">Config parameter-week4</a>--%>
-<%--  <br/>--%>
-<%--  <a href="register.jsp">Register JDBC-week4</a>--%>
-<%--  <br/>--%>
-<%--  <a href="index.jsp">include-week5</a>--%>
-<%--  <br/>--%>
-<%--  <a href="login.jsp">Login-week5</a>--%>
-<%--  <br/>--%>
-  <h2>welcome to my online shop home page.</h2>
-  <a href="hello-servlet">hello servelt</a>
-<%--  <form method="get" target="_blank" action="Search">--%>
-<%--    <input type="text" name="txt" size="30"/>--%>
-<%--    <select name="search">--%>
-<%--      <option value="baidu">Baidu</option>--%>
-<%--      <option value="bing">Bing</option>--%>
-<%--      <option value="google">Google</option>--%>
-<%--    </select>--%>
-<%--    <input type="submit" value="Search"/>--%>
-<%--  </form>--%>
-  <%@include file="footer.jsp"%>
-  </body>
-</html>

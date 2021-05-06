@@ -52,7 +52,7 @@
 
     <servlet-mapping>
         <servlet-name>anyname</servlet-name>
-        <url-pattern>/hello</url-pattern>
+        <url-pattern>/hi</url-pattern>
     </servlet-mapping>
 
     <servlet-mapping>
@@ -73,6 +73,28 @@
         <welcome-file>home</welcome-file>
 
     </welcome-file-list>
-
-
+<filter>
+    <filter-name>HelloFilter</filter-name>
+    <filter-class>main.java.com.MiJiang.filter.HelloFilter</filter-class>
+</filter>
+<filter-mapping>
+    <filter-name>HelloFilter</filter-name>
+    <url-pattern>/hello</url-pattern>
+</filter-mapping>
+    <filter>
+        <filter-name>LoggerFilter</filter-name>
+        <filter-class>main.java.com.MiJiang.filter.LoggerFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>LoggerFilter</filter-name>
+        <url-pattern>/hello</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>AuthFilter</filter-name>
+        <filter-class>main.java.com.MiJiang.filter.AuthFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AuthFilter</filter-name>
+        <url-pattern>/hello</url-pattern>
+    </filter-mapping>
 </web-app>

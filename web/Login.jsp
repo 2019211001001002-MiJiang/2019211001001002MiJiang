@@ -18,7 +18,7 @@ Login <br>
     }
 %>
 
-<form method="post" action="Login">
+<form method="post" action="login">
     <p>Username:<input type="text" name="name"/></p>
 
     <p>Password:<input type="password" name="password"/></p>

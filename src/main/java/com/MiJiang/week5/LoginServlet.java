@@ -13,7 +13,7 @@ import java.net.URLEncoder;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-@WebServlet(name = "LoginServlet",value = "/Login")
+@WebServlet(name = "LoginServlet",value = "/login")
 public class LoginServlet extends HttpServlet {
     Connection con = null;
     public void init() throws ServletException {
@@ -47,7 +47,7 @@ public class LoginServlet extends HttpServlet {
         try {
             User user = userDao.findByUsernamePassword(con,UserName,PassWord);
             if (user != null) {
-                String rememberMe=request.getParameter("rememberMe");
+                String rememberMe=request.getParameter("remember");
                 if("1".equals(rememberMe)&&rememberMe!=null){
 
                     Cookie passwordCookie=new Cookie("cPassword", URLEncoder.encode(user.getPassword(),"UTF-8"));
@@ -67,7 +67,7 @@ public class LoginServlet extends HttpServlet {
                 request.getRequestDispatcher("WEB-INF/views/userInfo.jsp").forward(request, response);
             } else {
                 request.setAttribute("message", "username or password error");
-                request.getRequestDispatcher("WEB-INF/views/Login.jsp").forward(request, response);
+                request.getRequestDispatcher("WEB-INF/views/login.jsp").forward(request, response);
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -100,7 +100,7 @@ public class LoginServlet extends HttpServlet {
         }*/
     }
         protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("WEB-INF/views/Login.jsp").forward(request,response);
+        request.getRequestDispatcher("WEB-INF/views/login.jsp").forward(request,response);
     }
 }
 
