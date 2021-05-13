@@ -7,37 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf00e6f1-f04c-45f4-aaa0-178e90a9b918" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/controller/AddProductServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/controller/ProductListServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/dao/IProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/dao/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/model/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/model/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/controller/AddProductServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/controller/ProductListServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/dao/IProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/dao/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/model/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/model/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MiJiang/controller/AddProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MiJiang/controller/ProductListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MiJiang/dao/IProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MiJiang/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MiJiang/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MiJiang/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/controller/UpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/controller/UpdateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/week3/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/week3/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/week5/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/week5/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/views/Login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/views/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/views/header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/views/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/views/updateUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/views/updateUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/views/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/views/userInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/a_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/controller/UpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/controller/UpdateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/week3/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/week3/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/week5/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/week5/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/MiJiang/controller/UpdateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MiJiang/controller/UpdateServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/MiJiang/controller/logoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MiJiang/controller/logoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/MiJiang/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MiJiang/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/MiJiang/week3/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MiJiang/week3/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/MiJiang/week5/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MiJiang/week5/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/MiJiang/week6/SearchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MiJiang/week6/SearchServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/Login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/updateUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/updateUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/userInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/views/admin/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/views/admin/addProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/admin/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/admin/addProduct.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,106 +44,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/week5/LoginServlet.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/AddProductServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-759">
-              <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="199">
+              <caret line="60" column="50" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/UpdateServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="65" column="57" lean-forward="true" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/AdminHomeServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/week6/SearchServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/login.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/ProductListServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/filter/HelloFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/model/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" selection-start-line="15" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="825">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/filter/LoggerFilter.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/addProduct.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/filter/AuthFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="96" column="4" lean-forward="true" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/week2/hello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="950">
+              <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -163,8 +85,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -212,6 +134,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/MiJiang/filter/LoggerFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/MiJiang/filter/AuthFilter.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MiJiang/model/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MiJiang/dao/IProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MiJiang/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MiJiang/model/Category.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/admin/addProduct.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MiJiang/controller/ProductListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MiJiang/controller/AddProductServlet.java" />
       </list>
     </option>
   </component>
@@ -229,9 +158,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="891" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
     <option name="width" value="1038" />
-    <option name="height" value="912" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -239,8 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,6 +193,38 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="MiJiang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019211001001002MiJiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019211001001002MiJiang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="MiJiang" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019211001001002MiJiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019211001001002MiJiang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="MiJiang" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019211001001002MiJiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019211001001002MiJiang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="MiJiang" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019211001001002MiJiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019211001001002MiJiang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="MiJiang" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2019211001001002MiJiang" type="b2602c69:ProjectViewProjectNode" />
@@ -317,17 +277,34 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="2019211001001002MiJiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019211001001002MiJiang" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019211001001002MiJiang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019211001001002MiJiang" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/MiJiang/dao" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -336,18 +313,18 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\IdeaProjects\2019211001001002MiJiang\src\main\java\com\MiJiang\dao" />
+      <recent name="C:\Users\LENOVO\IdeaProjects\2019211001001002MiJiang\web\WEB-INF\views" />
+      <recent name="C:\Users\LENOVO\IdeaProjects\2019211001001002MiJiang\web" />
+      <recent name="C:\Users\LENOVO\IdeaProjects\2019211001001002MiJiang\web\WEB-INF\lib" />
+      <recent name="C:\Users\LENOVO\IdeaProjects\2019211001001002MiJiang\web\WEB-INF" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\LENOVO\IdeaProjects\2019211001001002MiJiang\web\WEB-INF\views" />
       <recent name="C:\Users\LENOVO\IdeaProjects\2019211001001002MiJiang\web" />
       <recent name="C:\Users\LENOVO\IdeaProjects\2019211001001002MiJiang\web\WEB-INF\lib" />
       <recent name="C:\Users\LENOVO\IdeaProjects\2019211001001002MiJiang\web\week2" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\LENOVO\IdeaProjects\2019211001001002MiJiang\web\WEB-INF\views" />
-      <recent name="C:\Users\LENOVO\IdeaProjects\2019211001001002MiJiang\web" />
-      <recent name="C:\Users\LENOVO\IdeaProjects\2019211001001002MiJiang\web\WEB-INF\lib" />
-      <recent name="C:\Users\LENOVO\IdeaProjects\2019211001001002MiJiang\src\main\java\com\MiJiang\dao" />
-      <recent name="C:\Users\LENOVO\IdeaProjects\2019211001001002MiJiang\web\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -650,6 +627,9 @@
       <workItem from="1619777541496" duration="3485000" />
       <workItem from="1619933005384" duration="1601000" />
       <workItem from="1619935560925" duration="13128000" />
+      <workItem from="1620266865667" duration="2032000" />
+      <workItem from="1620786487550" duration="8704000" />
+      <workItem from="1620899776691" duration="201000" />
     </task>
     <task id="LOCAL-00001" summary="2.HW-CE2 Commit">
       <created>1615616800181</created>
@@ -728,11 +708,18 @@
       <option name="project" value="LOCAL" />
       <updated>1619339205390</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2.HW-CE2 Commit">
+      <created>1620267127805</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620267127806</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173436000" />
+    <option name="totallyTimeSpent" value="184172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -744,7 +731,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
@@ -752,11 +739,11 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Web" order="6" sideWeight="0.31083483" side_tool="true" visible="true" weight="0.024252223" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.6891652" visible="true" weight="0.024252223" />
+      <window_info id="Web" order="6" sideWeight="0.31616342" side_tool="true" visible="true" weight="0.2497979" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.6838366" visible="true" weight="0.2497979" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497979" weight="0.5559503" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497979" weight="0.59680283" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3285968" />
@@ -770,14 +757,14 @@
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3285968" />
       <window_info anchor="bottom" x="22" y="180" width="1237" height="321" id="Debug" order="14" sideWeight="0.502021" side_tool="true" weight="0.6678508" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32983023" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="2" weight="0.32983023" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.2497979" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -787,30 +774,11 @@
     <MESSAGE value="2.HW-CE2 Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="2.HW-CE2 Commit" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/week3/HelloWorldServlet.java" />
-    <entry file="jar://D:/JDK/8/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4900">
-          <caret line="263" selection-start-line="263" selection-end-line="263" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JDK/8/src.zip!/javax/management/remote/rmi/RMIConnectionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="828" column="16" selection-start-line="828" selection-start-column="16" selection-end-line="828" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/logo.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SearchServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/week6/JDBCServletContextListenerServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/dao/UserDaoServlet.java" />
     <entry file="jar://D:/JDK/8/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -996,20 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/logoutServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/HomeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/Login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -1031,60 +985,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/week5/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-759">
-          <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/UpdateServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="65" column="57" lean-forward="true" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/week6/SearchServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/AdminHomeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/week2/hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/HelloServlet.java">
@@ -1094,15 +997,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/filter/HelloFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/week5/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" selection-start-line="15" selection-end-line="16" />
+        <state relative-caret-position="1350">
+          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/week2/hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="91" column="12" lean-forward="true" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/logoutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/filter/AuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1113,17 +1045,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/filter/AuthFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/filter/HelloFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        <state relative-caret-position="204">
+          <caret line="16" selection-start-line="15" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="96" column="4" lean-forward="true" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+        <state relative-caret-position="100">
+          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/week6/SearchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/UpdateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="65" column="57" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/HomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/AdminHomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/model/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1076#1086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/dao/IProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/addProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="13" column="97" selection-start-line="13" selection-start-column="97" selection-end-line="13" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/ProductListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/AddProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="60" column="50" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
+          <folding>
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
