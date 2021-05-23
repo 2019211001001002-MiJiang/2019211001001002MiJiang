@@ -41,12 +41,20 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://D:/2345Downloads/commons-dbutils-1.7/apidocs/org/apache/commons/dbutils/handlers" />
+          <root url="jar://D:/2345Downloads/jakarta-taglibs-standard-1.1.2/lib/jstl.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="taglibs-standard-jstlel-1.2.5" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/2345Downloads/jakarta-taglibs-standard-1.1.2/lib/standard.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

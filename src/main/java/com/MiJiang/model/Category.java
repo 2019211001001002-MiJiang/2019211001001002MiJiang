@@ -72,9 +72,9 @@ public class Category {
             ResultSet resultSet=statement.executeQuery();
             while(resultSet.next()){
                 Category c=new Category();
-                c.setCategoryId(resultSet.getInt("categoryid"));
+                c.setCategoryId(resultSet.getInt("categoryId"));
                 c.setCategoryName(resultSet.getString("categoryName"));
-                c.setDescription(resultSet.getString("Description"));
+                c.setDescription(resultSet.getString("description"));
                 list.add(c);
             }
         } catch (SQLException e) {
