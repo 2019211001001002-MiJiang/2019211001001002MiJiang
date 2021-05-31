@@ -40,8 +40,22 @@ public class ProductDao implements  IProductDao{
     }
 
     @Override
-    public Product findById(Integer productId, Connection con) {
-        return null;
+    public Product findById(Integer productId, Connection con) throws SQLException {
+        String queryString="select * from Product where ProductId=?";
+        PreparedStatement pt=con.prepareStatement(queryString);
+        pt.setInt(1,productId);
+        ResultSet rs=pt.executeQuery();
+        Product product=new Product();
+        while(rs.next()){
+
+            product.setProductId(rs.getInt("ProductId"));
+            product.setProductName(rs.getString("ProductName"));
+            product.setProductDescription(rs.getString("ProductDescription"));
+            product.setPrice(rs.getInt("price"));
+            product.setCategoryId(rs.getInt("CategoryId"));
+
+        }
+        return product;
     }
 
     @Override

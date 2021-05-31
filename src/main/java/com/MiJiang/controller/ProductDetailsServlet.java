@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.List;
 
 @WebServlet(name = "ProductDetailsServlet",value= "/productDetails")
@@ -32,7 +33,12 @@ public class ProductDetailsServlet extends HttpServlet {
         }
         List<Category> categoryList=Category.findAllCategory(con);
         request.setAttribute("categoryList",categoryList);
-        Product product=productDao.findById(id,con);
+        Product product= null;
+        try {
+            product = productDao.findById(id,con);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
         request.setAttribute("p",product);
         String path="/WEB-INF/views/productDetails.jsp";
         request.getRequestDispatcher(path).forward(request,response);
