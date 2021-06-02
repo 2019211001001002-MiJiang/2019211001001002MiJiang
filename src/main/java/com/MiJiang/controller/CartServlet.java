@@ -23,23 +23,25 @@ public class CartServlet extends HttpServlet {
         super.init();
         con=(Connection)getServletContext().getAttribute("con");
     }
-
+public void destroy(){
+        super.destroy();
+}
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session=request.getSession(false);
-       if(session!=null&&session.getAttribute("user")!=null){
+       if(session!=null && session.getAttribute("user")!=null){
            if(request.getParameter("action")==null){
                displayCart(request,response);
-           }else if(request.getParameter("action").equals("add")){
+           }else if("add".equals(request.getParameter("action"))){
                try {
                    buy(request,response);
                } catch (SQLException e) {
                    e.printStackTrace();
                }
-           }else if(request.getParameter("action").equals("remove")){
+           }else if("remove".equals(request.getParameter("action"))){
                remove(request,response);
            }
        }else {
@@ -65,7 +67,7 @@ public class CartServlet extends HttpServlet {
     response.sendRedirect(request.getContextPath()+"/cart");
     }
 
-    private int isExisting(int id, List<Item> cart) {
+    private int isExisting(int id, List<main.java.com.MiJiang.model.Item> cart) {
         for(int i=0;i<cart.size();i++){
             if(cart.get(i).getProduct().getProductId()==id){
                 return i;
@@ -76,17 +78,9 @@ public class CartServlet extends HttpServlet {
 
     private void buy(HttpServletRequest request, HttpServletResponse response) throws IOException, SQLException {
         HttpSession session=request.getSession();
-        int id=0;
-        if(request.getParameter("productId")!=null){
-            id=Integer.parseInt(request.getParameter("productId"));
 
-
-        }
-        int quantityParam=request.getParameter("quantity")!=null?Integer.parseInt(request.getParameter("quantity")):0;
-        if(id==0||quantityParam==0){
-            return;
-        }
-
+        int id=request.getParameter("productId")!=null?Integer.parseInt(request.getParameter("productId")):0;
+        int quantityParam=request.getParameter("quantity")!=null?Integer.parseInt(request.getParameter("quantity")):1;
         ProductDao dao=new ProductDao();
         if(session.getAttribute("cart")==null){
             List<Item> cart=new ArrayList<Item>();
@@ -94,9 +88,9 @@ public class CartServlet extends HttpServlet {
             cart.add(new Item(p,quantityParam));
             session.setAttribute("cart",cart);
         }else {
-            List<Item> cart=(ArrayList<Item>)session.getAttribute("cart");
+            List<Item> cart=(List<Item>)session.getAttribute("cart");
             int index=isExisting(id,cart);
-            if(index==-1){
+            if(index == -1){
 
                 cart.add(new Item(dao.findById(id,con),1));
 
