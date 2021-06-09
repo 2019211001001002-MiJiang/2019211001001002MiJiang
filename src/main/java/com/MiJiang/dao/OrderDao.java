@@ -27,7 +27,7 @@ public class OrderDao implements IOrderDao {
 			//By default,committed right after it is executed,disable the auto commit mode to enable two or more statements to be grouped into a transaction// begin the transaction:
 			con.setAutoCommit(false);
 			//sql =INSERT INTO userdb.order for mysql
-			String sql="INSERT INTO [dbo].[order](CustomerID,PaymentID,OrderDate,FirstName,LastName,Address1,Address2,city,state,PostalCode,Country,Phone,Notes,OrderTotal) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+			String sql="INSERT INTO Order(CustomerId,PaymentId,OrderDate,FirstName,LastName,Address1,Address2,City,State,PostalCode,Country,Phone,Notes,OrderTotal) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 			PreparedStatement st = con.prepareStatement(sql);
 			st.setInt(1, order.getCustomerId());
 			st.setInt(2, order.getPaymentId());
@@ -48,7 +48,7 @@ public class OrderDao implements IOrderDao {
 			flag = st.executeUpdate();
 			
 			//get newly inserted OrderId
-				String lastId="SELECT max(orderid) as orderId from [dbo].[order] ";//"SELECT max(orderid) as orderId from userdb.order"; for mysql
+				String lastId="SELECT max(orderid) as orderId from [dbo].[Order] ";//"SELECT max(orderid) as orderId from userdb.order"; for mysql
 				ResultSet rs=con.createStatement().executeQuery(lastId);
 				rs.next();
 				int orderId=rs.getInt("orderId");
@@ -56,7 +56,7 @@ public class OrderDao implements IOrderDao {
 				Set<Item> orderDetails =order.getOrderDetails();
 				//OrderDetailsDao odDao=new OrderDetailsDao();
 				Iterator<Item> i=orderDetails.iterator();
-				String sql1="INSERT INTO orderdetail(OrderID,ProductID,price,Quantity,Total) values(?,?,?,?,?)";
+				String sql1="INSERT INTO Detailed(OrderID,ProductID,price,Quantity,Total) values(?,?,?,?,?)";
 				PreparedStatement st1 = con.prepareStatement(sql1);
 				while(i.hasNext()){
 					Item item= i.next();
@@ -99,7 +99,7 @@ public class OrderDao implements IOrderDao {
 				+ ", value: " + value);
 		List<Order> orderList=new ArrayList<Order>();
 		try {
-			String queryString = "select * from [dbo].[order] as model where model."+ propertyName + "= ?";//use userdb.Order for mysql
+			String queryString = "select * from [dbo].[Order] as model where model."+ propertyName + "= ?";//use userdb.Order for mysql
 			PreparedStatement st = con.prepareStatement(queryString);
 			st.setObject(1, value);
 			ResultSet	rs = st.executeQuery();
@@ -224,7 +224,7 @@ public class OrderDao implements IOrderDao {
 	public List<Item> findItemsByOrderId(Connection con,int orderId) {
 		List<Item> itemList=new ArrayList<Item>();
 		try {
-			String sql="SELECT 	* FROM orderdetail AS o INNER JOIN product AS p ON o.ProductId=p.ProductId WHERE o.OrderID="+orderId;
+			String sql="SELECT 	* FROM Detailed AS o INNER JOIN product AS p ON o.ProductId=p.ProductId WHERE o.OrderID="+orderId;
 			ResultSet rs=con.createStatement().executeQuery(sql);
 			while(rs.next()){
 				Item i=new Item();

@@ -45,7 +45,9 @@ public class UpdateServlet extends HttpServlet {
             if(n==1) {
                 HttpSession session=request.getSession();
                 session.setAttribute("userInfo", user);
-                request.getRequestDispatcher("WEB-INF/views/userInfo.jsp").forward(request, response);
+               // request.getRequestDispatcher("WEB-INF/views/userInfo.jsp").forward(request, response);
+                request.getRequestDispatcher("accountDetails").forward(request, response);
+
             }else {
                 System.out.println("update error");
             }
@@ -65,8 +67,7 @@ public class UpdateServlet extends HttpServlet {
                 User u = UserDao.findById(con,id);
                 HttpSession session=request.getSession();
                 session.setAttribute("userInfo", u);
-                //request.getRequestDispatcher("WEB-INF/views/updateUser.jsp").forward(request, response);
-                request.getRequestDispatcher("accountDetails").forward(request, response);
+                request.getRequestDispatcher("WEB-INF/views/updateUser.jsp").forward(request, response);
 
             } catch (SQLException e) {
                 e.printStackTrace();
