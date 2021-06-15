@@ -7,42 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf00e6f1-f04c-45f4-aaa0-178e90a9b918" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/controller/AdminOrderList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/lab2/MiJiangFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/lab2/login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/lab2/loginFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/views/admin/orderList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/views/orderSuccess.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/views/updateUserView.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/lab1/assignment2/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/lab2/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/lab2/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/lab2/validate.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/lab2/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/orderDetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/controller/AdminOrderList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/lab2/MiJiangFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/lab2/login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/lab2/loginFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MiJiang/controller/AdminOrderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab2/MiJiangFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab2/login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab2/loginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/contactUs.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lab2/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lab2/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lab2/validate.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lab2/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/views/contactUs.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/controller/UpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/controller/UpdateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/MiJiang/dao/OrderDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/controller/UpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/controller/UpdateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/MiJiang/dao/OrderDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/MiJiang/controller/UpdateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MiJiang/controller/UpdateServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/MiJiang/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MiJiang/dao/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/admin/orderList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/admin/orderList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/lab2/validate.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-325">
+            <state relative-caret-position="350">
               <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
             </state>
           </provider>
@@ -74,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lab2/loginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="375">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
@@ -83,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
+            <state relative-caret-position="2525">
               <caret line="101" column="63" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
             </state>
           </provider>
@@ -92,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/OrderServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="1575">
               <caret line="81" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
@@ -101,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/dao/OrderDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="600">
               <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -119,11 +85,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/contactUs.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1551">
-              <caret line="175" column="32" selection-start-line="175" selection-start-column="32" selection-end-line="175" selection-end-column="32" />
+            <state relative-caret-position="76">
+              <caret line="116" column="29" lean-forward="true" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/orderList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-395">
+              <caret line="90" column="52" lean-forward="true" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -131,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/lab2/welcome.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="400">
               <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
             </state>
           </provider>
@@ -227,10 +202,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="1043" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -238,8 +213,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -729,7 +704,8 @@
       <workItem from="1622976000100" duration="45000" />
       <workItem from="1622976084976" duration="3248000" />
       <workItem from="1623197722709" duration="2822000" />
-      <workItem from="1623212205220" duration="6286000" />
+      <workItem from="1623212205220" duration="6492000" />
+      <workItem from="1623724874883" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="2.HW-CE2 Commit">
       <created>1615616800181</created>
@@ -857,11 +833,18 @@
       <option name="project" value="LOCAL" />
       <updated>1622622148766</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="2.HW-CE2 Commit">
+      <created>1623221363400</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1623221363400</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265021000" />
+    <option name="totallyTimeSpent" value="265583000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -881,11 +864,11 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.5055249" side_tool="true" weight="0.24656427" />
-      <window_info id="Web" order="6" sideWeight="0.18300654" side_tool="true" visible="true" weight="0.22473727" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.8169935" visible="true" weight="0.22473727" />
+      <window_info id="Web" order="6" sideWeight="0.18467583" side_tool="true" visible="true" weight="0.2279709" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.8153242" visible="true" weight="0.2279709" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4882781" visible="true" weight="0.432282" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4882781" visible="true" weight="0.055658627" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.4987874" weight="0.3283859" />
@@ -1276,44 +1259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/lab2/validate.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lab2/loginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/lab2/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="101" column="63" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/dao/OrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/model/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1875">
@@ -1328,17 +1273,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/orderList.jsp">
+    <entry file="file://$PROJECT_DIR$/web/lab2/validate.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="106" column="44" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
+        <state relative-caret-position="350">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lab2/loginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2525">
+          <caret line="101" column="63" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/controller/OrderServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="1575">
           <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MiJiang/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1349,10 +1318,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/lab2/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/contactUs.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1551">
-          <caret line="175" column="32" selection-start-line="175" selection-start-column="32" selection-end-line="175" selection-end-column="32" />
+        <state relative-caret-position="76">
+          <caret line="116" column="29" lean-forward="true" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/orderList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-395">
+          <caret line="90" column="52" lean-forward="true" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="52" />
         </state>
       </provider>
     </entry>
