@@ -6,16 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf00e6f1-f04c-45f4-aaa0-178e90a9b918" name="Default Changelist" comment="">
+    <list default="true" id="cf00e6f1-f04c-45f4-aaa0-178e90a9b918" name="Default Changelist" comment="2.HW-CE2 Commit">
       <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/lab3/CalServlet.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/WEB-INF/classes/main/java/com/lab3/HitCountServlet.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/artifacts/a_war_exploded/lab3/cal.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/META-INF/2019211001001002-MiJiang.kotlin_module" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/lab3/CalServlet.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/2019211001001002-MiJiang/main/java/com/lab3/HitCountServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab3/CalServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab3/HitCountServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lab3/cal.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -706,7 +703,7 @@
       <workItem from="1623197722709" duration="2822000" />
       <workItem from="1623212205220" duration="6492000" />
       <workItem from="1623724874883" duration="3446000" />
-      <workItem from="1623824514755" duration="868000" />
+      <workItem from="1623824514755" duration="1773000" />
     </task>
     <task id="LOCAL-00001" summary="2.HW-CE2 Commit">
       <created>1615616800181</created>
@@ -848,11 +845,18 @@
       <option name="project" value="LOCAL" />
       <updated>1623725245475</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="2.HW-CE2 Commit">
+      <created>1623828456213</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1623828456213</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269541000" />
+    <option name="totallyTimeSpent" value="270446000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
